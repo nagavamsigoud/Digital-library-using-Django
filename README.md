@@ -75,33 +75,63 @@ The system underwent multiple levels of testing to ensure reliability:
 
 ## 📸 Screenshots
 
-<img width="1764" height="864" alt="image" src="https://github.com/user-attachments/assets/503e24d8-dfe5-44f3-9706-10f62b710ef3" />
+<img width="1764" height="864" alt="Screenshot 2026-04-19 152639" src="https://github.com/user-attachments/assets/a090524a-9adb-439d-8c3e-324fbcbdf798" />
 
-<img width="1751" height="825" alt="image" src="https://github.com/user-attachments/assets/d8b1fe75-2855-4a1f-8e5d-bdf35e14e525" />
+<img width="1751" height="825" alt="Screenshot 2026-04-19 152742" src="https://github.com/user-attachments/assets/c4b17444-b08a-4458-89ce-a888d25f043b" />
 
-<img width="1647" height="780" alt="image" src="https://github.com/user-attachments/assets/c08fdea2-001e-4de1-9168-8ce1ab027345" />
+<img width="1647" height="780" alt="Screenshot 2026-04-19 152811" src="https://github.com/user-attachments/assets/5b6ea384-be9b-4086-95a1-c6a1d4e56234" />
 
-<img width="1646" height="872" alt="image" src="https://github.com/user-attachments/assets/68f980fa-9935-43b1-9ee6-7df95c5d62ac" />
+<img width="1646" height="872" alt="Screenshot 2026-04-19 152834" src="https://github.com/user-attachments/assets/f9c0cce8-ee3b-415b-be03-78a9497c0e74" />
 
-<img width="1629" height="557" alt="image" src="https://github.com/user-attachments/assets/d1536a8d-1342-4d2e-87dd-ac478ad15871" />
+<img width="1629" height="557" alt="Screenshot 2026-04-19 152856" src="https://github.com/user-attachments/assets/16d34f12-6981-45e6-a070-4ff73781a2c7" />
 
-<img width="1642" height="778" alt="image" src="https://github.com/user-attachments/assets/21151ba6-4fc0-4555-a702-5d4286b81c94" />
+<img width="1642" height="778" alt="Screenshot 2026-04-19 152923" src="https://github.com/user-attachments/assets/8fe604e9-409b-48f7-b3ca-78e4f66ea078" />
 
-<img width="1237" height="670" alt="image" src="https://github.com/user-attachments/assets/ecd975d6-ee5f-4727-a635-6e601dbbbf1f" />
+<img width="1237" height="670" alt="Screenshot 2026-04-19 152950" src="https://github.com/user-attachments/assets/87cb5a32-2b54-41cd-8149-cc474e157bb4" />
 
-<img width="1232" height="588" alt="image" src="https://github.com/user-attachments/assets/9639624c-356f-41b1-9bb0-c1d274c1374a" />
+<img width="1232" height="588" alt="Screenshot 2026-04-19 153009" src="https://github.com/user-attachments/assets/283b0657-6a2d-4f18-8787-f0cf9fe97fc1" />
 
-<img width="1237" height="671" alt="image" src="https://github.com/user-attachments/assets/a553e23e-85d4-4c8d-898c-012ed15cc537" />
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 
 ## 💻 How to Run
 
-To install and run your Online Bookstore Management System, follow these steps to set up your environment and launch the server.
+Follow these step-by-step instructions to set up your environment, install the dependencies, and launch the development server.
 
 ### 1. Environment Setup
 It is highly recommended to use a virtual environment to keep your project dependencies isolated.
 
 **Create a Virtual Environment:**
-```bash
+```powershell
 python -m venv venv
+venv\Scripts\activate
+
+
+### 2. Install Dependencies
+Use the `requirements.txt` file to install all necessary backend libraries at once.
+```powershell
+pip install -r requirements.txt
+
+Prepare Migrations:
+python manage.py makemigrations
+
+Apply Migrations: (This generates your local SQLite3 database tables)
+
+python manage.py migrate
+
+Start the Application
+Once the installation and database configurations are complete, boot up the local development server:
+
+python manage.py runserver
+Access the Bookstore: Open you
