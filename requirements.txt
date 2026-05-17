@@ -1,0 +1,18 @@
+# Web Framework
+Django>=3.0,<5.0
+
+# Form Rendering
+django-crispy-forms
+
+# PDF Generation & Processing
+xhtml2pdf
+reportlab
+PyPDF2
+
+# Image Processing (Required for book covers/sliders)
+Pillow
+
+# Encoding & Formatting Utilities
+arabic-reshaper
+python-bidi
+html5lib
