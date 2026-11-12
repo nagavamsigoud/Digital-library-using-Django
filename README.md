@@ -115,6 +115,27 @@ order/         Checkout, order history, and PDF invoices
 docs/          Architecture, data model, workflows, and operations notes
 files/         Project-provided book and author images (media assets)
 ```
+## screen shots
+
+<img width="1764" height="864" alt="Screenshot 2026-04-19 152639" src="https://github.com/user-attachments/assets/a1573cdb-78b5-4420-b3c6-ff805c89ebca" />
+
+<img width="1751" height="825" alt="Screenshot 2026-04-19 152742" src="https://github.com/user-attachments/assets/207c67c0-9c3b-4d24-a77b-b7214ac5a637" />
+
+<img width="1647" height="780" alt="Screenshot 2026-04-19 152811" src="https://github.com/user-attachments/assets/ff7224db-09dc-452e-8c5d-b12a4e047fce" />
+
+<img width="1646" height="872" alt="Screenshot 2026-04-19 152834" src="https://github.com/user-attachments/assets/4f069760-8776-417c-b9c1-f12cc7c8890a" />
+
+<img width="1629" height="557" alt="Screenshot 2026-04-19 152856" src="https://github.com/user-attachments/assets/6564f742-cfd3-4251-9bbf-b49143f93c81" />
+
+<img width="1642" height="778" alt="Screenshot 2026-04-19 152923" src="https://github.com/user-attachments/assets/c3b145b5-3cbe-4b32-b81f-052eaf36bb3d" />
+
+<img width="1237" height="670" alt="Screenshot 2026-04-19 152950" src="https://github.com/user-attachments/assets/a678b8e9-c248-4fea-b8d9-bded3bee6136" />
+
+<img width="1232" height="588" alt="Screenshot 2026-04-19 153009" src="https://github.com/user-attachments/assets/0495b838-daec-4d02-91dd-a53e040efa94" />
+
+<img width="1237" height="671" alt="Screenshot 2026-04-19 153038" src="https://github.com/user-attachments/assets/a92fc7d5-27ba-4db4-8071-be79241a9f7f" />
+
+
 
 ## Important limitations
 
